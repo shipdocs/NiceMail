@@ -1,0 +1,81 @@
+/* Global style sheet for NiceMail */
+
+QMainWindow {
+    background-color: #f8f5f2;
+}
+
+#sidebar {
+    background: #ffffff;
+    border-right: 1px solid #ded6ce;
+}
+
+#sidebarTitle {
+    font-size: 26px;
+    font-weight: 700;
+    color: #593d2b;
+}
+
+#primaryButton {
+    background-color: #f0a500;
+    color: #2f241f;
+    font-size: 18px;
+    padding: 14px 18px;
+    border-radius: 12px;
+}
+
+#primaryButton:hover {
+    background-color: #ffb830;
+}
+
+#subtleButton {
+    background: transparent;
+    color: #795548;
+    border: 2px dashed #c7a88a;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-size: 16px;
+}
+
+#messageList {
+    background: #fbf8f5;
+    padding: 16px;
+    font-size: 16px;
+}
+
+#detailPanel {
+    background: #ffffff;
+}
+
+#messageBody {
+    font-size: 16px;
+    line-height: 1.6em;
+    background: #fffaf3;
+    border: 1px solid #f1e2d0;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+QListView::item {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 12px;
+    margin-bottom: 8px;
+}
+
+QListView::item:selected {
+    background: #ffe7c6;
+}
+
+QScrollBar:vertical {
+    background: transparent;
+    width: 12px;
+}
+
+QScrollBar::handle:vertical {
+    background: #d7ccc8;
+    border-radius: 6px;
+}
+
+QLabel {
+    color: #3e2723;
+}
