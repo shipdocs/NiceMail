@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=NiceMail
+Comment=Friendly email client for seniors
+Exec=nicemail
+Terminal=false
+Type=Application
+Icon=nicemail
+Categories=Network;Email;

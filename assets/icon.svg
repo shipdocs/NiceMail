@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#71c4ff"/>
+      <stop offset="100%" stop-color="#3a7bd5"/>
+    </linearGradient>
+    <linearGradient id="flap" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#e6f2ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#1f4f8d" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect x="16" y="16" width="224" height="224" rx="48" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <rect x="48" y="72" width="160" height="112" rx="24" fill="#ffffff"/>
+    <path d="M48 96l80 64 80-64" fill="none" stroke="#3a7bd5" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M56 88h144c8.837 0 16 7.163 16 16v48c0 8.837-7.163 16-16 16H56c-8.837 0-16-7.163-16-16v-48c0-8.837 7.163-16 16-16z" fill="url(#flap)"/>
+    <path d="M72 112l56 40 56-40" fill="none" stroke="#2b6cc4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="50%" y="206" text-anchor="middle" font-family="'Nunito', 'Arial Rounded MT Bold', sans-serif" font-size="32" fill="#ffffff">NiceMail</text>
+</svg>

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "subject": "Lunch with the family",
+    "sender": "Daughter <daughter@example.com>",
+    "preview": "Hi mom! Don't forget lunch on Sunday at 12. We'll pick you up at 11:30.",
+    "date_received": "2024-06-01T15:30:00+00:00",
+    "is_unread": true,
+    "is_flagged": false,
+    "folder": "INBOX"
+  },
+  {
+    "id": "2",
+    "subject": "Community center newsletter",
+    "sender": "Community Center <hello@community.org>",
+    "preview": "Here's what's happening this week at the community center...",
+    "date_received": "2024-06-02T09:15:00+00:00",
+    "is_unread": false,
+    "is_flagged": true,
+    "folder": "INBOX"
+  },
+  {
+    "id": "3",
+    "subject": "Suspicious Prize Win",
+    "sender": "Scam Corp <prizes@scam.biz>",
+    "preview": "You have won a prize! Click here to claim now!!!",
+    "date_received": "2024-06-02T07:10:00+00:00",
+    "is_unread": true,
+    "is_flagged": false,
+    "folder": "SPAM"
+  }
+]
